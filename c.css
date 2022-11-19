@@ -1,0 +1,971 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+
+}
+
+.home {
+    background: url(omoo.jpg) no-repeat center fixed;
+    position: relative;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    height: 550px;
+    animation-name: cool;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cool {
+    0% {
+
+        background-image: url(omoo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    40% {
+        background-image: url(bodyc22.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    80% {
+        background-image: url(bodyc2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    100% {
+        background-image: url(omoo.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.89);
+    border-bottom: 2px solid white;
+    padding-top: 20px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.ppp>li {
+    display: inline;
+    padding: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 1px;
+    font-style: italic;
+    font-family: Candara;
+
+}
+
+a:hover {
+    color: orange;
+}
+
+.ppp {
+    display: inline;
+}
+
+nav>ul {
+    padding-top: 10px;
+}
+
+svg {
+    padding-top: 10px;
+}
+
+svg {
+    padding-left: 10px;
+}
+
+.text {
+    color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding: 10rem;
+    position: relative;
+
+}
+
+.text>.alch {
+    position: absolute;
+    bottom: 10px;
+    color: transparent;
+
+}
+
+.omo1 {
+    background-color: rgb(255, 174, 62);
+    border: 2px solid rgb(255, 112, 2);
+    color: white;
+    padding: 9px 18px;
+}
+
+.omo1:hover {
+    background-color: rgb(251, 255, 0);
+    border: 2px solid rgb(255, 112, 2);
+    color: red;
+    padding: 9px 18px;
+}
+
+.texth {
+    font-size: 40px;
+    width: 40%;
+    display: inline-block;
+}
+
+.texth:hover {
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    transition: 0.3s;
+
+}
+
+.textp {
+    font-size: 20px;
+}
+
+.abb>h1 {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.abb>h1>span {
+    color: rgb(255, 174, 62);
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.atext {
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.349);
+    height: auto;
+    position: relative;
+
+
+}
+
+.at {
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+#menu {
+    position: absolute;
+    bottom: 40px;
+    color: transparent;
+}
+
+.burger {
+    display: none;
+
+}
+
+.pic {
+    width: 100%;
+}
+
+.shadow {
+    font-size: 30px;
+}
+
+.at>p {
+    font-size: 20px;
+}
+
+.menu>h1 {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.menu>h1>span {
+    color: rgb(255, 174, 62);
+}
+
+.oo>img {
+    border-radius: 50%;
+    border: solid white 1px;
+    width: 70px;
+    height: 70px;
+
+}
+
+.opener {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 7px;
+
+
+}
+
+.d1,
+.d2,
+.d3 {
+    height: 270px;
+    width: 330px;
+    padding: 20px;
+    border: rgba(255, 255, 255, 0.498) 2px solid;
+    text-align: center;
+    position: relative;
+
+
+
+}
+
+#product {
+    position: absolute;
+    bottom: 40px;
+    color: transparent;
+}
+
+.moni {
+    display: inline;
+    font-size: large;
+}
+
+strike {
+    font-size: 12px;
+    color: rgb(151, 151, 151);
+}
+
+.omo2 {
+    background-color: rgb(255, 174, 62);
+    border: 2px solid rgb(255, 112, 2);
+    color: white;
+    padding: 4px 15px;
+}
+
+.oo {
+    margin: 10%;
+
+}
+
+.product>h1 {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.product>h1>span {
+    color: rgb(255, 174, 62);
+}
+
+.pr1 {
+    width: 330px;
+    height: fit-content;
+    border: rgba(255, 255, 255, 0.498) 2px solid;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+#review {
+    position: absolute;
+    bottom: 40px;
+    color: transparent;
+}
+
+#contact {
+    position: absolute;
+    bottom: 40px;
+    color: transparent;
+}
+
+#blogs {
+    position: absolute;
+    bottom: 40px;
+    color: transparent;
+}
+
+.pr1>svg {
+    border: solid white 1px;
+    padding: 10px;
+
+}
+
+.pr1>.wtf {
+    height: 250px;
+}
+
+.pr1>.sta {
+    height: 20px;
+}
+
+.pr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 7px;
+
+}
+
+.wahala {
+    height: 220px;
+    padding: 15px;
+}
+
+.review>h1 {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.review>h1>span {
+    color: rgb(255, 174, 62);
+}
+
+.ppl {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.review>.pr>.pr1>p {
+    color: rgba(255, 255, 255, 0.785);
+    line-height: 27px;
+}
+
+.contact>h1 {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.contact>h1>span {
+
+    color: rgb(255, 174, 62);
+}
+
+.inp {
+    width: 50%;
+    background-color: rgba(128, 128, 128, 0.349);
+    height: auto;
+    position: relative;
+}
+
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.inp>h1 {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 45px;
+}
+
+input {
+    display: block;
+    background-color: transparent;
+    padding: 2px;
+    color: white;
+
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 20px 35px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgba(204, 204, 204, 0.852);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 20px 35px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgba(204, 204, 204, 0.852);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 50%;
+
+}
+
+.mr {
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 20px;
+    text-align: center;
+}
+
+.mes {
+    position: relative;
+}
+
+.mes:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background: url("person-fill.svg") center / contain no-repeat;
+}
+
+.mes1 {
+    position: relative;
+}
+
+.mes1:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background: url("envelope-fill.svg") center / contain no-repeat;
+}
+
+.mes2 {
+    position: relative;
+}
+
+.mes2:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background: url("telephone-fill.svg") center / contain no-repeat;
+}
+
+.omo5 {
+    background-color: rgb(255, 174, 62);
+    border: 2px solid rgb(255, 112, 2);
+    color: white;
+    padding: 9px 18px;
+    border-radius: 4px;
+
+}
+
+.omo5:hover {
+    background-color: rgba(255, 175, 62, 0.801);
+    border: 2px solid rgb(255, 112, 2);
+    color: rgb(238, 255, 0);
+    padding: 9px 18px;
+    cursor: pointer;
+}
+
+.blogs>h1 {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.blogs>h1>span {
+    color: rgb(255, 174, 62);
+}
+
+.pr2 {
+    width: 370px;
+    height: fit-content;
+    border: rgba(255, 255, 255, 0.498) 2px solid;
+
+
+}
+
+.omo4 {
+    background-color: rgb(255, 174, 62);
+    border: 2px solid rgb(255, 112, 2);
+    color: white;
+    padding: 5px 18px;
+    border-radius: 4px;
+
+}
+
+.omo4:hover {
+    background-color: rgba(255, 175, 62, 0.801);
+    border: 2px solid rgb(255, 112, 2);
+    color: rgb(238, 255, 0);
+    padding: 9px 18px;
+    cursor: pointer;
+}
+
+.twin2 {
+    line-height: 20px;
+    color: rgb(166, 166, 166);
+    font-size: 14px;
+}
+
+.below {
+    padding-bottom: 20px;
+    padding: 10px;
+}
+
+.twin {
+    padding: 5px 0px;
+    color: rgba(255, 175, 62, 0.76);
+    ;
+}
+
+.cons>h2 {
+    color: #8d7a65;
+    font-size: 26px;
+    line-height: 32px;
+    display: block;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+    padding-bottom: 0px;
+}
+
+.soc>h2 {
+    color: #8d7a65;
+    font-size: 26px;
+    line-height: 32px;
+    display: block;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+    padding-bottom: 0px;
+}
+
+.footer {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: rgb(30, 30, 30);
+}
+
+.footer>.hardest>img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.mama {
+    color: #8d7a65;
+    font-size: 26px;
+    line-height: 32px;
+    display: block;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.foot {
+    text-align: left;
+}
+
+.foot>p {
+    color: rgb(210, 210, 210);
+    font-family: Candara;
+}
+
+.company>li {
+    display: block;
+}
+
+.foot>ul>li>a {
+    text-decoration: none;
+    color: rgb(210, 210, 210);
+
+    font-style: normal;
+    font-family: Candara;
+}
+
+.button {
+    background-image: linear-gradient(rgb(3, 3, 210), rgb(105, 5, 227));
+    ;
+    display: flex;
+    width: 50px;
+    border-radius: 40px;
+    height: 25px;
+    margin: auto;
+
+}
+
+.mode1 {
+    cursor: pointer;
+    width: 45%;
+    background-color: white;
+    border-radius: 100%;
+
+}
+
+.mode2 {
+    cursor: pointer;
+    width: 45%;
+    background-color: white;
+    border-radius: 100%;
+    margin-left: 55%;
+
+    display: none;
+
+}
+
+.darkmode {
+    font-size: 13px;
+    padding-top: 5px;
+    color: rgb(176, 166, 166);
+
+
+}
+
+#lie {
+
+
+    width: 25%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgba(204, 204, 204, 0.852);
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* transform: translateX(20%); */
+    display: none;
+    animation: show 0.5s;
+}
+
+@keyframes show {
+    0% {
+        transform: translateX(300%);
+    }
+
+    100% {
+        transform: translateX(20%);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+    .texth {
+        font-size: 40px;
+        width: 100%;
+        display: inline-block;
+    }
+
+    nav {
+        padding-top: 10px;
+        padding: 5px;
+    }
+
+    .texth:hover {
+        color: transparent;
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
+        transition: 0.3s;
+
+    }
+
+    .text {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5rem;
+
+    }
+
+    .pic {
+        width: 100%;
+    }
+
+    .about {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        justify-content: space-between;
+    }
+
+    .atext {
+        width: auto;
+        padding-top: 10px;
+        height: 250px;
+
+    }
+
+    .burger {
+        display: block;
+        cursor: pointer;
+
+    }
+
+    .burger>svg:hover {
+        height: 22px;
+        width: 22px;
+        fill: orange;
+    }
+
+    .ppp>li {
+        display: block;
+        text-align: center;
+        padding: 10px;
+
+    }
+
+    .ppp {
+        position: absolute;
+        top: 55px;
+        right: 0px;
+        left: 0px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.89);
+        border-bottom: 2px solid white;
+        clip-path: polygon(0 0, 100% 0, 100% 0%, 0 0%);
+        transition-duration: 2s;
+
+    }
+
+    
+
+    .mine {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .at>h2 {
+        font-size: 20px;
+    }
+
+    .at>p {
+        font-size: 15px;
+    }
+
+    .at {
+        padding: 20px;
+    }
+
+    .atext {
+        width: 100%;
+        background-color: rgba(128, 128, 128, 0.349);
+        height: 330px;
+    }
+
+    
+
+    .inp {
+        width: 100%;
+        background-color: rgba(128, 128, 128, 0.349);
+        height: auto;
+    }
+
+    .footer {
+        display: block;
+        text-align: center;
+    }
+
+    .foot {
+        text-align: center;
+    }
+
+    .text>.alch {
+        position: absolute;
+        bottom: 200px;
+        color: transparent;
+
+
+    }
+    .svv{
+        display: none;
+    }
+
+    .home {
+        height: 550px;
+        position: relative;
+    }
+
+    .text {
+        height: 100%;
+    }
+    .home{
+        height: 500px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 450px) {
+    .home{
+        height: 500px;
+        
+    }
+    .text {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 1rem;
+        position: relative;
+        text-align: center;
+        padding: 2rem;
+        padding-top: 6rem;
+    }
+    
+    .text>.alch {
+        position: absolute;
+        bottom: 10px;
+        color: transparent;
+    
+    }
+    
+    .omo1 {
+        background-color: rgb(255, 174, 62);
+        border: 2px solid rgb(255, 112, 2);
+        color: white;
+        padding: 9px 18px;
+    }
+    
+    .omo1:hover {
+        background-color: rgb(251, 255, 0);
+        border: 2px solid rgb(255, 112, 2);
+        color: red;
+        padding: 9px 18px;
+    }
+    
+    .texth {
+        font-size: 40px;
+       
+        
+    }
+    
+    .texth:hover {
+        color: transparent;
+        -webkit-text-stroke: 1px white;
+        transition: 0.3s;
+    
+    }
+    
+    .textp {
+        font-size: 20px;
+    }
+    .about {
+        display: grid;
+        grid-template-columns:  1fr;
+        justify-content: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .atext {
+        width: 100%;
+        background-color: rgba(128, 128, 128, 0.349);
+        height: auto;
+        position: relative;
+    
+    
+    }
+    
+    .at {
+        padding: 20px;
+       
+        padding-bottom: 50px;
+    
+    }
+    #jude{
+        display: none;
+    }
+}
